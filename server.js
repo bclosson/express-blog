@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-// Authors Routes
+//  Routes
 app.use('/authors', ctrl.authors);
 app.use('/articles', ctrl.articles);
 
